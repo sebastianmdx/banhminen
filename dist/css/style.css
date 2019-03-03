@@ -1,0 +1,594 @@
+body {
+  font-size: 16px;
+  color: #000000; /*black*/
+  background-color: #ffffff; /*white*/
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #ffffff; /*white*/
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/logo_large.png') no-repeat;
+  background-position: center;
+  width: 200px;
+  height: 82px;
+}
+#logo-center {
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+.centered {
+  text-align: center;
+  margin-bottom: 5px;
+}
+.navbar-toggle {
+  float: none;
+  margin: 0 auto;
+}
+.mynav { /*horizontal navigation with centered text*/
+  list-style:none;
+  margin:0;
+  padding:0;
+  text-align:center;
+  margin-top: -15px;
+  margin-bottom: -15px;
+}
+.mynav li { 
+  display: inline;
+  margin: 0px 25px 0px 25px;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  color: #999999;
+}
+.mynav a{
+  display: inline-block;
+  padding: 10px;
+}
+#main-nav {
+  margin-left: 5px;
+}
+/*social*/
+#social-net {
+  margin-top: 35px;
+}
+.facebook {
+ background: url('../images/facebook-24.png') no-repeat;
+ float: left;
+ width: 40px;
+ height: 24px;
+}
+.twitter {
+  background: url('../images/twitter-24.png') no-repeat;
+  float: left;
+  width: 40px;
+  height: 24px;
+}
+.instagram {
+  background: url('../images/instagram-24.png') no-repeat;
+  float: left;
+  width: 40px;
+  height: 24px;
+}
+/*end of social*/
+
+/*main body*/
+/*home page*/
+.jumbotron img {
+  width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+#photo-tile1, #photo-tile2, #photo-tile3, #photo-tile4 {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+#photo-tile1 {
+  background: url("../images/photo-tile1.png") no-repeat;
+  background-position: center;
+}
+#photo-tile2 {
+  background: url("../images/photo-tile2.png") no-repeat;
+  background-position: center;
+}
+#photo-tile3 {
+  background: url("../images/photo-tile3.png") no-repeat;
+  background-position: center;
+}
+#photo-tile4 {
+  background: url("../images/book-tile.png") no-repeat;
+  background-position: center;
+}
+.img-description {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  color: black;
+  visibility: hidden;
+  opacity: 0;
+  height: 100%;
+}
+#photo-tile1:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+
+#photo-tile2:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+
+#photo-tile3:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+
+#photo-tile4:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+/*menu tiles section*/ 
+
+.menu-tiles {
+  height: 350px;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 20px;
+}
+#menu-tile1 {
+  background: url("../images/menu/menu-tile1/menu-tile1.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile1:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile2 {
+  background: url("../images/menu/menu-tile2/menu-tile2.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile2:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile3 {
+  background: url("../images/menu/menu-tile3/menu-tile3.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile3:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile4 {
+  background: url("../images/menu/menu-tile4/menu-tile4.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile4:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile5 {
+  background: url("../images/menu/menu-tile5/menu-tile5.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile5:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile6 {
+  background: url("../images/menu/menu-tile6/menu-tile6.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile6:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile7 {
+  background: url("../images/menu/menu-tile7/menu-tile7.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile7:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile8 {
+  background: url("../images/menu/menu-tile8/menu-tile8.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile8:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile9 {
+  background: url("../images/menu/menu-tile8/menu-tile8.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile9:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile10 {
+  background: url("../images/menu/menu-tile10/menu-tile10.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile10:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+#menu-tile11 {
+  background: url("../images/menu/menu-tile11/menu-tile11.JPG") no-repeat;
+  background-position: center;
+}
+#menu-tile11:hover .img-description {
+ opacity: 1;
+ visibility: visible;
+ background: #e6e6e6;
+ transition: 0.3s;
+}
+/*end of home page*/
+
+/*end of main body*/
+
+/*about*/
+img.about {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-stretch {
+  width: 100%;
+  background-color: #e6e6e6;
+}
+ #about-description {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 40px 60px 0px 60px;
+  line-height: 2.2em;
+  }
+/*end of about*/
+
+/*visit*/
+img.map {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*end of visit*/
+/*carousel*/
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+/*end of carousel*/
+
+/*contact form*/
+
+.error {
+ color: #ff3300;
+}
+/*end of contact form*/
+
+/*footer*/
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: #e6e6e6;
+  border-top: 0;
+}
+#column-one, #column-two {
+  line-height: 2;
+}
+#column-one > span, #column-two > span {
+  font-size: 1.3em;
+}
+#column-three {
+  font-style: italic;
+  margin-top: 20px;
+}
+img.menu1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*end of footer*/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+ .container-fluid  .jumbotron {
+    background: url('../images/jumbotron_1200.jpg') no-repeat;
+    height: 500px;  
+    margin-bottom: 10px;
+  }
+  #menu-tile1 {
+    margin-left: 15px;
+  }
+  #menu-tile3 {
+    margin-left: 15px;
+  }
+  #menu-tile5 {
+    margin-left: 15px;
+  }
+  #menu-tile7 {
+    margin-left: 15px;
+  }
+  #menu-tile9 {
+    margin-left: 15px;
+  }
+  #menu-tile11 {
+    margin-left: 15px;
+  }
+  img.about {
+    background: url('../images/about-large.JPG') no-repeat; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: auto;
+  }
+  img.map {
+    background: url('../images/map-large.png') no-repeat;
+    display: block;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+  img.menu1 {
+    background: url('../images/menu/menu-item1-large.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    height: auto;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Header */
+  .container-fluid .jumbotron {
+    background: url('../images/jumbotron_992.jpg') no-repeat;
+    height: 485px;
+    margin-bottom: 20px;
+  }
+  img.about {
+    background: url('../images/about-medium.JPG') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 992px;
+    height: auto;
+  }
+  img.map {
+    background: url('../images/map-large.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+  img.menu1 {
+    background: url('../images/menu/menu-item1-medium.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 992px;
+    height: auto;
+  }  
+}
+  /* End Header */
+
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .container-fluid .jumbotron {
+    background: url('../images/jumbotron_768.jpg') no-repeat;
+    height: 380px;
+    margin-bottom: 10px;
+  }
+  img.about {
+    background: url('../images/about-small.JPG') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+    height: auto;
+  }
+  img.map {
+    background: url('../images/map-large.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+  img.menu1 {
+    background: url('../images/menu/menu-item1-small.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 768px;
+    height: auto;
+  }  
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  #collapsable-nav a {
+    font-size: 1.1em;
+  }
+  /*main body*/
+  .container-fluid .jumbotron {
+    margin-top: 10px;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+  div#photo-tile1 {
+    background: url("../images/photo-tile1sm.png") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#photo-tile2 {
+    background: url("../images/photo-tile2sm.png") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#photo-tile3 {
+    background: url("../images/photo-tile3sm.png") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#photo-tile4 {
+    background: url("../images/book-tilesm.png") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+/*end of main body*/
+/*footer*/
+  .panel-footer section {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  #logo-center {
+    display: block;
+    margin-top: 40px;
+    margin: auto;
+  }
+  /*social*/
+  #social-net {
+    margin-top: 10px;
+  }
+  .panel-footer hr {
+    width: 50%;
+  }
+  .mynav {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+/*end of footer*/
+/*menu tiles*/
+  div#menu-tile1 {
+    background: url("../images/menu/menu-tile1/menu-tile1sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile2 {
+    background: url("../images/menu/menu-tile2/menu-tile2sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile3 {
+    background: url("../images/menu/menu-tile3/menu-tile3sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile4 {
+    background: url("../images/menu/menu-tile4/menu-tile4sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+    div#menu-tile5 {
+    background: url("../images/menu/menu-tile5/menu-tile5sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile6 {
+    background: url("../images/menu/menu-tile6/menu-tile6sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile7 {
+    background: url("../images/menu/menu-tile7/menu-tile7sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile8 {
+    background: url("../images/menu/menu-tile8/menu-tile8sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+    div#menu-tile9 {
+    background: url("../images/menu/menu-tile9/menu-tile9sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile10 {
+    background: url("../images/menu/menu-tile10/menu-tile10sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  div#menu-tile11 {
+    background: url("../images/menu/menu-tile11/menu-tile11sm.JPG") no-repeat;
+    background-position: center;
+    height: 250px;
+  }
+  img.about {
+    background: url('../images/about-small.JPG') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+  img.map {
+    background: url('../images/map-small.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+  img.menu1 {
+    background: url('../images/menu/menu-item1-small.png') no-repeat;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+  }
+}  
